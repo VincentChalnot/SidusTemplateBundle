@@ -1,0 +1,32 @@
+{
+    "name": "sidus/template-bundle",
+    "description": "Simple templating controllers/actions in Symfony 5.3+",
+    "keywords": [
+        "template",
+        "templating"
+    ],
+    "homepage": "https://github.com/VincentChalnot/SidusTemplateBundle",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Chalnot",
+            "email": "vincent@sidus.fr",
+            "homepage": "https://sidus.fr",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sidus\\TemplateBundle\\": ""
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "symfony/dependency-injection": ">=5.3",
+        "symfony/http-foundation": ">=5.3",
+        "symfony/http-kernel": ">=5.3",
+        "symfony/config": ">=5.3",
+        "symfony/event-dispatcher": ">=5.3"
+    }
+}

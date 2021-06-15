@@ -1,0 +1,10 @@
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+
+    Sidus\TemplateBundle\:
+        resource: '../../'
+        exclude: '../../{Debug,DependencyInjection,Entity,Model}'
